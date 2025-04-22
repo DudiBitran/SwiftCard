@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.business-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.business-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.font-type {
+  font-family: "Jura", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+[data-bs-theme="dark"] .business-card {
+  background-color: #252525 !important;
+  color: #f1f1f1;
+}
+
+[data-bs-theme="dark"] .card-footer {
+  background-color: #2c2c2c !important;
+}
+
+[data-bs-theme="dark"] .bi-eye {
+  color: white !important;
+}
+
+[data-bs-theme="dark"] .bi-pencil-square {
+  color: limegreen !important;
+}
+
+.card-footer .btn i {
+  font-size: 1.5rem;
+}
+
+.card-footer .btn {
+  padding: 0.5rem 1rem;
+}
+
+@media (max-width: 767px) {
+  .card-footer .btn i {
+    font-size: 1rem;
+  }
+
+  .card-footer .btn {
+    padding: 0.25rem 0.5rem;
+  }
+}

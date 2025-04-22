@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  font-family: "Oswald";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.dropdown-menu {
+  transform-origin: top;
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  transform: scaleY(0) rotateX(-90deg);
+  opacity: 0;
+  display: block;
+}
+
+.dropdown-menu.show {
+  transform: scaleY(1) rotateX(0);
+  opacity: 1;
+}
+
+.dropdown-menu.bg-dark .dropdown-item:hover {
+  background-color: #343a40 !important;
+  color: #fff !important;
+}
+
+.dropdown li .active {
+  background-color: #3c444d;
+}
+
+@media (max-width: 768px) {
+  .dropdown-menu {
+    transform-origin: top;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    transform: scaleY(0);
+    opacity: 0;
+  }
+
+  .dropdown-menu.show {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}

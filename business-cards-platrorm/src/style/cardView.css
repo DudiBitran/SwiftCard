@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+[data-bs-theme="dark"] .gradient-form {
+  background: #212529 !important;
+}
+
+[data-bs-theme="dark"] .card {
+  background-color: #343a40 !important;
+  border: none;
+}
+
+[data-bs-theme="dark"] .text-black {
+  color: #f8f9fa !important;
+}
+
+[data-bs-theme="dark"] .text-dark {
+  color: #f8f9fa !important;
+}
+
+[data-bs-theme="dark"] .text-light {
+  color: #f8f9fa !important;
+}
+
+[data-bs-theme="dark"] .bi-arrow-left {
+  color: #f8f9fa !important;
+}
+
+[data-bs-theme="dark"] .bi-heart-fill {
+  color: #dc3545 !important;
+}
+
+[data-bs-theme="dark"] .text-danger {
+  color: #dc3545 !important;
+}
+
+[data-bs-theme="dark"] .btn-background {
+  background-color: #495057 !important;
+  border-radius: 10px;
+}

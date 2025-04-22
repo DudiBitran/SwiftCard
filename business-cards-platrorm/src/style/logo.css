@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.brand-Name {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.brand-Name img {
+  width: 23px;
+}
+
+.faviconImg {
+  width: 23px;
+}
