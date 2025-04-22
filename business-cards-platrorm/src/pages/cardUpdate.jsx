@@ -174,7 +174,6 @@ function CardUpdate() {
       street: "",
       houseNumber: "",
       zip: "",
-      bizNumber: "",
     },
     validate: makeValidate,
     validateOnMount: true,
