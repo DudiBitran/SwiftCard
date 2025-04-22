@@ -10,13 +10,14 @@ Swift Card is a sleek and modern business card management platform built with Re
   - Role-based access:
     - **Regular User** – can view all cards, like/unlike them, and manage their **Favorite Cards**
     - **Business User** – can create, edit, and delete their own business cards
-    - **Admin** – can manage all business cards and assign BizNumbers
-    - **Business Admin** – full access to cards **and** a sandbox for user management
+    - **Admin** – can **view**, **delete**, and **like** any card, and also **manage users**, but **cannot edit** cards
+    - **Business Admin** – has full access: can **create**, **edit**, **delete** any card, and manage users via the **User Management Sandbox**
 
 - 📝 **Card Management**
 
   - Business Users can create, edit, and delete business cards for their company
-  - Admins can manage all cards in the system
+  - **Admins** can delete any card and manage users, but **cannot edit cards**
+  - **Business Admins** have full control, including creating, editing, deleting all cards, and managing users
   - View full card details
   - Like & Unlike cards
 
