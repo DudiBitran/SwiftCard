@@ -63,8 +63,8 @@ Swift Card is a sleek and modern business card management platform built with Re
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/DudiBitran/SwiftCard.git
-cd SwiftCard
+git clone https://github.com/DudiBitran/SwiftCard-frontend.git
+cd SwiftCard-frontend
 cd business-cards-platrorm
 npm install
 npm run dev
